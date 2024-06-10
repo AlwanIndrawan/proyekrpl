@@ -8,7 +8,7 @@ class NewsController extends Controller
 {
     public function index()
     {
-        return view('blog', [
+        return view('Home.blog', [
             'title' => 'rezmin'
         ]);
     }

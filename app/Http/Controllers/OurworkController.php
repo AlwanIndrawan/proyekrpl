@@ -12,7 +12,7 @@ class OurworkController extends Controller
     public function index() {
         $ourwork = Ourwork::all();
         // $ourwork->deskripsi = Str::limit($ourwork->deskripsi, 15);
-        return view('Ourwork', ['works'=>$ourwork]);
+        return view('Home.Ourwork', ['works'=>$ourwork]);
     }
 
     public function store(Request $request) {

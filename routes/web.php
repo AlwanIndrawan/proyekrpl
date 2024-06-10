@@ -14,14 +14,26 @@ use App\Http\Controllers\OurworkController;
 |
 */
 
-Route::get('/index', function () {
-    return view('index');
+Route::get('/', function () {
+    return view('Home.index');
 });
 Route::get('/about', function () {
-    return view('about');
+    return view('Home.about');
 });
 Route::get('/contact', function () {
-    return view('contact');
+    return view('Home.contact');
+});
+Route::get('/adminhome', function () {
+    return view('Admin.adminhome');
+});
+Route::get('/post_page', function () {
+    return view('Admin.post_page');
+});
+Route::get('/show_post', function () {
+    return view('Admin.show_post');
+});
+Route::get('/login-page', function () {
+    return view('Home.login-page');
 });
 
 
