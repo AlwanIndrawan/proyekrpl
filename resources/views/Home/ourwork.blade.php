@@ -68,7 +68,7 @@
             <h1 class="display-1 text-white animated slideInDown">Our Work</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb text-uppercase mb-0">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="/home">Home</a></li>
                     <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
                     <li class="breadcrumb-item text-primary active" aria-current="page">Our Work</li>
                 </ol>
@@ -115,13 +115,48 @@
     <!-- Facts End -->
 
 
-    <!-- Service Start -->
+    <!-- Our Work Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h4 class="section-title">Our Work</h4>
                 <h1 class="display-5 mb-4">Project</h1>
             </div>
+
+        <div class="cards">
+            <div class="card">
+                <div class="card-item">
+                    <img src="img/dapur1.jpg" alt="">
+                    <div class="text">
+                        <h3>Dapur</h3>
+                        <!-- <p>Design dapur yang minimalis dan elegan...</p> -->
+                    </div>
+                    <div class="rm-btn">
+                        <a href="/dapur" class="buttonrm">Read More</a>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="img/carousel-3.jpg" alt="">
+                    <div class="text">
+                        <h3>Ruang Tamu</h3>
+                        <!-- <p>Design ruang tamu yang aesthetic...</p> -->
+                    </div>
+                    <div class="rm-btn">
+                        <a href="" class="buttonrm">Read More</a>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="img/project-2.jpg" alt="">
+                    <div class="text">
+                        <h3>Hair Studio</h3>
+                        <!-- <p>Design barber yang classic...</p> -->
+                    </div>
+                    <div class="rm-btn">
+                        <a href="" class="buttonrm">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
             <div class="row g-4">
                 @foreach ( $works as $work )
@@ -141,7 +176,7 @@
             </div>
         </div>
     </div>
-    <!-- Service End -->
+    <!-- Our Work End -->
 
 
   <!-- Footer Start -->

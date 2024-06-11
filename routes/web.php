@@ -15,7 +15,7 @@ use App\Http\Controllers\LoginController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/home', function () {
     return view('Home.index');
 });
 Route::get('/about', function () {
@@ -27,6 +27,10 @@ Route::get('/contact', function () {
 
 Route::get('/berita', function () {
     return view('Home.beritablog');
+});
+
+Route::get('/dapur', function () {
+    return view('Home.rmdapur');
 });
 
 
