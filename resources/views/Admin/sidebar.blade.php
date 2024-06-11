@@ -15,13 +15,13 @@
       <li class="nav-heading">Menu Berita</li>
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="/post_page">
+        <a class="nav-link collapsed" href="admin-blog-tampilkan">
           <i class="bi bi-journal-text"></i><span>Tambah Berita</span><i></i>
         </a>
       </li><!-- End Forms Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="/show_post">
+        <a class="nav-link collapsed" href="/admin-blog">
           <i class="bi bi-layout-text-window-reverse"></i><span>Daftar Berita</span><i></i>
         </a>
       </li>    

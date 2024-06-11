@@ -27,28 +27,20 @@
             <h5 class="card-title text-center" style="font-size: 25px;">Tambah Berita</h5>
 
             <!-- Vertical Form -->
-            <form class="row g-3" action="{{url('add_post')}}" method="POST" enctype="multipart/form-data">
+            <form class="row g-3" action="{{route('admin-blog.store')}}" method="POST" enctype="multipart/form-data">
               @csrf
                 <div class="col-12">
                   <label for="title" class="form-label">Judul</label>
-                  <input type="text" class="form-control" id="title" name="title">
+                  <input type="text" class="form-control" id="judul" name="judul" value="{{old('judul')}}">
                 </div>
                 <div class="col-12">
                   <label for="description" class="form-label">Deskripsi</label>
-                  <textarea class="form-control" id="description" name="description"></textarea>
-                </div>
-                <div class="col-12">
-                  <label for="day" class="form-label">Hari</label>
-                  <input type="text" class="form-control" id="day" name="day" placeholder="Format: Senin">
-                </div>
-                <div class="col-12">
-                  <label for="date" class="form-label">Tanggal</label>
-                  <input type="text" class="form-control" id="date" name="date" placeholder="Format : 1 Januari 2024">
+                  <textarea class="form-control" id="deskripsi" name="deskripsi" value="{{old('deskripsi')}}"></textarea>
                 </div>
                 <div class="col-12">
                   <label class="form-label" for="image">Gambar</label>
                   <div class="input-group">
-                    <input type="file" class="form-control" id="image" name="image">
+                    <input type="file" class="form-control" id="gambar" name="gambar">
                   </div>
                 </div>
                   <button type="submit" class="btn btn-primary">Submit</button>

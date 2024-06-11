@@ -44,23 +44,27 @@
                 <th>Judul</th>
                 <th>Deskripsi</th>
                 <th>Gambar</th>
-                <th>Tanggal</th>  
-                <th>Hari</th>
                 <th>Edit</th>
                 <th>Hapus</th>
               </tr>
             </thead>
             <tbody>
-            @foreach($post as $post)
+            @foreach($blogs as $blog)
               <tr>
                 <td>{{ $loop->iteration }}.</td>
-                <td>{{$post->title}}</td>
-                <td>{{$post->description}}</td>
-                <td><img class="blog-img" src="postimage/{{$post->image}}" alt="berita rsud djafar harun"></td>
-                <td>{{$post->date}}</td>
-                <td>{{$post->day}}</td>
-                <td><a href="{{url('edit_page',$post->id)}}" class="btn btn-success">Edit</a></td>
-                <td><a href="{{url('delete_post',$post->id)}}" class="btn btn-danger" onclick="confirmation(event)">Hapus</a></td>
+                <td>{{$blog->judul}}</td>
+                <td>{{$blog->deskripsi}}</td>
+                <td><img class="blog-img" src="blog/{{$blog->gambar}}" alt="berita rsud djafar harun"></td>
+                <td><a href="admin-blog/{{$blog->id}}" class="btn btn-success">Edit</a></td>
+                <td>
+                  <form action="admin-blog/{{$blog->id}}" method="POST">
+                    @method('delete')
+                    @csrf
+                    <button class="btn btn-danger">Hapus</button>
+                  </form>
+                </td>
+                
+                
               </tr>
               @endforeach
             </tbody>
