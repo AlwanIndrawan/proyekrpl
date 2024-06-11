@@ -236,10 +236,10 @@
         <div class="content-photo">
             <img src="img/about-1.jpg" alt="">
             <img src="img/project-4.jpg" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <img src="img/project-3.jpg" alt="">
+            <img src="img/project-2.jpg" alt="">
+            <img src="img/project-1.jpg" alt="">
+            <img src="img/IMG-20240204-WA0044.jpg" alt="">
         </div>
     </div>
     <!-- Content Photo End -->
@@ -460,7 +460,7 @@
   <!-- Footer Start -->
   <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-5">
-        <div class="row g-5">
+        <div class="row g-5 justify-content-evenly">
             <div class="col-lg-3 col-md-6">
                 <h3 class="text-light mb-4">Address</h3>
                 <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>Studio: Jl. Goa Ria No. 15</p>
@@ -480,6 +480,11 @@
                 <a class="btn btn-link" href="/ourwork">Our Work</a>
                 <a class="btn btn-link" href="/blog">Blog</a>
                 <a class="btn btn-link" href="/contact">Contact</a>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h3 class="text-light mb-4">Just call us</h3>
+                <a class="btn btn-square btn-outline-body me-1" href="#"><i class="fab fa-whatsapp"></i></a>
             </div>
         </div>
     </div>
