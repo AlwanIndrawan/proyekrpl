@@ -483,8 +483,8 @@
             </div>
 
             <div class="col-lg-3 col-md-6">
-                <h3 class="text-light mb-4">Just call us</h3>
-                <a class="btn btn-square btn-outline-body me-1" href="#"><i class="fab fa-whatsapp"></i></a>
+                <h3 class="text-light mb-4">Get In Touch</h3>
+                <a class="btn btn-square3x btn-outline-body me-1" href="#"><i class="fab fa-whatsapp fa-3x"></i></a>
             </div>
         </div>
     </div>

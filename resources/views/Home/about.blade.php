@@ -91,8 +91,11 @@
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <h4 class="section-title">About Us</h4>
                     <h1 class="display-5 mb-4">A Creative Architecture Agency For Your Dream Home</h1>
-                    <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.</p>
+                    <p>Selamat datang di CV. AAARCHINTER STUDIO! Kami adalah perusahaan yang berdedikasi dalam bidang arsitektur dan desain interior, dengan fokus pada menciptakan ruang yang inspiratif dan fungsional. Dengan pengalaman dan keahlian yang mendalam, 
+                        kami berkomitmen untuk mewujudkan visi dan impian klien kami melalui pendekatan desain yang inovatif dan detail yang presisi. Setiap proyek yang kami tangani adalah perpaduan antara seni dan teknologi, dirancang untuk memberikan pengalaman yang luar biasa dan sesuai dengan kebutuhan serta gaya hidup Anda.</p>
+                    <p class="mb-4">Kami memahami bahwa setiap klien memiliki kebutuhan dan keinginan unik, sehingga kami selalu mendengarkan dengan cermat dan berkolaborasi erat untuk menghasilkan desain yang mencerminkan karakter dan preferensi Anda. Dari rumah tinggal yang hangat hingga ruang komersial yang fungsional, kami menghadirkan solusi desain yang tepat sasaran dan estetis.</p>
+                    <p class="mb-4">Selain itu, komitmen kami terhadap keberlanjutan dan penggunaan material ramah lingkungan memastikan bahwa setiap proyek tidak hanya indah tetapi juga bertanggung jawab terhadap lingkungan. Dengan tim profesional yang kreatif dan berdedikasi, kami siap membantu Anda menciptakan ruang yang menginspirasi dan berfungsi maksimal.</p>
+                    <p class="mb-4">Bergabunglah dengan kami dalam perjalanan menciptakan ruang yang tak hanya indah, tetapi juga bermakna. Bersama CV. AAARCHINTER STUDIO, wujudkan impian Anda menjadi nyata dengan sentuhan desain yang luar biasa.</p>
                     <div class="d-flex align-items-center mb-5">
                         <div class="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary" style="width: 120px; height: 120px;">
                             <h1 class="display-1 mb-n2" data-toggle="counter-up">2</h1>
