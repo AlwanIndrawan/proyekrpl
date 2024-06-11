@@ -24,7 +24,15 @@
         <a class="nav-link collapsed" href="/show_post">
           <i class="bi bi-layout-text-window-reverse"></i><span>Daftar Berita</span><i></i>
         </a>
-      </li><!-- End Tables Nav -->
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="/logout">
+          <i class="bi bi-layout-text-window-reverse"></i><span>Logout</span><i></i>
+        </a>
+      </li>
+      
+      <!-- End Tables Nav -->
 
       <li class="nav-heading">Menu Data</li>
       <li class="nav-item">

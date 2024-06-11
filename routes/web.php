@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\OurworkController;
+use App\Http\Controllers\LoginController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,9 +24,11 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('Home.contact');
 });
+
+
 Route::get('/adminhome', function () {
     return view('Admin.adminhome');
-});
+})->middleware('auth');
 Route::get('/post_page', function () {
     return view('Admin.post_page');
 });
@@ -36,6 +39,10 @@ Route::get('/login-page', function () {
     return view('Home.login-page');
 });
 
+
+Route::get('/login', [LoginController::class, 'login'])->name('login')->middleware('guest');
+Route::post('/login', [LoginController::class, 'authenticate'])->middleware('guest');
+Route::get('/logout', [LoginController::class, 'logout'])->middleware('auth');
 
 Route::get('/blog', [NewsController::class, 'index']);
 Route::get('/ourwork', [OurworkController::class, 'index']);
