@@ -2,7 +2,8 @@
 
 <div class="d-flex align-items-center justify-content-between">
   <a href="index.html" class="logo d-flex align-items-center">
-    <span class="d-none d-lg-block">RSUD Djafar Harun</span>
+    <img src="img/icons/logokecil.png" alt="">
+    <span class="d-none d-lg-block">AAARCHINTER</span>
   </a>
   <i class="bi bi-list toggle-sidebar-btn"></i>
 </div><!-- End Logo -->
@@ -27,8 +28,15 @@
       <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
         <li class="dropdown-header">
           <h6>Administrator</h6>
-          <span>RSUD Djafar Harun</span>
+          <span>AAARCHINTER</span>
         </li>
+
+        <li>
+              <a class="dropdown-item d-flex align-items-center" href="/logout">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
 
         <li>
           <hr class="dropdown-divider">

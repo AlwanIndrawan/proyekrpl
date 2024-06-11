@@ -25,6 +25,10 @@ Route::get('/contact', function () {
     return view('Home.contact');
 });
 
+Route::get('/berita', function () {
+    return view('Home.beritablog');
+});
+
 
 Route::get('/adminhome', function () {
     return view('Admin.adminhome');

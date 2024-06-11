@@ -72,7 +72,7 @@
                             <div class="col-10 col-lg-8">
                                 <h1 class="display-1 text-white animated slideInDown">CV. AAARCHINTER STUDIO</h1>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-3">Best Architecture And Interior Design Services.</p>
-                                <a href="" class="btn btn-primary py-3 px-5 animated slideInLeft">Read More</a>
+                                <a href="/about" class="btn btn-primary py-3 px-5 animated slideInLeft">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@
                             <div class="col-10 col-lg-8">
                                 <h1 class="display-1 text-white animated slideInDown">CV. AAARCHINTER STUDIO</h1>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-3">Best Architecture And Interior Design Services.</p>
-                                <a href="" class="btn btn-primary py-3 px-5 animated slideInLeft">Read More</a>
+                                <a href="/about" class="btn btn-primary py-3 px-5 animated slideInLeft">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                             <div class="col-10 col-lg-8">
                                 <h1 class="display-1 text-white animated slideInDown">CV. AAARCHINTER STUDIO</h1>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-3">Best Architecture And Interior Design Services.</p>
-                                <a href="" class="btn btn-primary py-3 px-5 animated slideInLeft">Read More</a>
+                                <a href="/about" class="btn btn-primary py-3 px-5 animated slideInLeft">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -173,93 +173,12 @@
                             <h3 class="mb-0">Experience</h3>
                         </div>
                     </div>
-                    <a class="btn btn-primary py-3 px-5" href="">Read More</a>
+                    <a class="btn btn-primary py-3 px-5" href="/about">Read More</a>
                 </div>
             </div>
         </div>
     </div>
     <!-- About End -->
-
-
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h4 class="section-title">Our Services</h4>
-                <h1 class="display-5 mb-4">We Focused On Modern Architecture And Interior Design</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/service-1.jpg" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-4" src="img/icons/icon-5.png" alt="Icon">
-                            <h3 class="mb-3">Architecture</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/service-2.jpg" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-4" src="img/icons/icon-6.png" alt="Icon">
-                            <h3 class="mb-3">3D Animation</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/service-3.jpg" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-4" src="img/icons/icon-7.png" alt="Icon">
-                            <h3 class="mb-3">House Planning</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/service-4.jpg" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-4" src="img/icons/icon-8.png" alt="Icon">
-                            <h3 class="mb-3">Interior Design</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/service-5.jpg" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-4" src="img/icons/icon-9.png" alt="Icon">
-                            <h3 class="mb-3">Renovation</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/service-6.jpg" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-4" src="img/icons/icon-10.png" alt="Icon">
-                            <h3 class="mb-3">Construction</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Service End -->
-
 
     <!-- Feature Start -->
     <div class="container-xxl py-5">
@@ -310,6 +229,20 @@
     </div>
     <!-- Feature End -->
 
+        <!-- Content Photo Start -->
+        <div class="container-content">
+        <h1 class="display-5 mb-4">We Focused On Modern 
+            <br> Architecture And Interior Design</h1>
+        <div class="content-photo">
+            <img src="img/about-1.jpg" alt="">
+            <img src="img/project-4.jpg" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+    </div>
+    <!-- Content Photo End -->
 
     <!-- Project Start -->
     {{-- <div class="container-xxl project py-5">
@@ -540,29 +473,13 @@
                     <a class="btn btn-square btn-outline-body me-0" href=""><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-                <h3 class="text-light mb-4">Services</h3>
-                <a class="btn btn-link" href="">Architecture</a>
-                <a class="btn btn-link" href="">3D Animation</a>
-                <a class="btn btn-link" href="">House Planning</a>
-                <a class="btn btn-link" href="">Interior Design</a>
-                <a class="btn btn-link" href="">Construction</a>
-            </div>
+
             <div class="col-lg-3 col-md-6">
                 <h3 class="text-light mb-4">Quick Links</h3>
-                <a class="btn btn-link" href="">About Us</a>
-                <a class="btn btn-link" href="">Contact Us</a>
-                <a class="btn btn-link" href="">Our Services</a>
-                <a class="btn btn-link" href="">Terms & Condition</a>
-                <a class="btn btn-link" href="">Support</a>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <h3 class="text-light mb-4">Newsletter</h3>
-                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                <div class="position-relative mx-auto" style="max-width: 400px;">
-                    <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                </div>
+                <a class="btn btn-link" href="/about">About Us</a>
+                <a class="btn btn-link" href="/ourwork">Our Work</a>
+                <a class="btn btn-link" href="/blog">Blog</a>
+                <a class="btn btn-link" href="/contact">Contact</a>
             </div>
         </div>
     </div>
